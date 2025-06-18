@@ -1,0 +1,202 @@
+
+<!DOCTYPE html>
+
+<html lang="id">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>HOOKI AUTO - Mobil Bekas Berkualitas</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&amp;display=swap" rel="stylesheet"/>
+<style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: #f8f9fa url('https://images.unsplash.com/photo-1549921296-3a6b2b6a6cbb?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80') no-repeat center center fixed; background-size: cover;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+    header {
+      background-color: #2e8b57;
+      padding: 30px 20px;
+      color: white;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 32px;
+    }
+    header h2 {
+      margin-top: 8px;
+      font-weight: 400;
+      font-size: 18px;
+    }
+    main {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    section {
+      background: white;
+      border-radius: 12px;
+      padding: 30px 40px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.05);
+      margin-bottom: 30px;
+    }
+    section h3 {
+      color: #2e8b57;
+      margin-top: 0;
+    }
+    ul {
+      text-align: left;
+      padding-left: 20px;
+    }
+    li {
+      margin-bottom: 10px;
+    }
+    form input, form select, form button {
+      width: 100%;
+      padding: 14px;
+      margin-top: 15px;
+      font-size: 16px;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+    }
+    form button {
+      background-color: #25D366;
+      color: white;
+      font-weight: 600;
+      border: none;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    form button:hover {
+      background-color: #1ebc57;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+      color: #999;
+    }
+  
+
+/* Profesional enhancement */
+body {
+  background-color: #f4f7f6;
+  background-image: none;
+}
+header {
+  background: linear-gradient(90deg, #043927 0%, #2e8b57 100%);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+main {
+  padding-top: 20px;
+}
+section {
+  transition: transform 0.3s ease;
+}
+section:hover {
+  transform: scale(1.01);
+}
+form input, form select {
+  border: 1px solid #2e8b57;
+}
+form button {
+  background-color: #007f4e;
+}
+form button:hover {
+  background-color: #005f3a;
+}
+footer {
+  background-color: #043927;
+  color: white;
+}
+h3 {
+  font-size: 22px;
+}
+blockquote {
+  background-color: #f1f1f1;
+  border-left: 5px solid #2e8b57;
+  padding: 10px 15px;
+  margin-top: 15px;
+  font-size: 16px;
+}
+</style>
+</head>
+<body>
+<header>
+<img alt="Logo Hooki Auto" src="logo-hooki-auto.jpg" style="max-width: 240px; margin-bottom: 15px;"/>
+<h1>HOOKI AUTO USED CAR</h1>
+<h2>Tempatnya Mokas Berkualitas</h2>
+</header>
+<main>
+<section>
+<h3>❗ Masalah Umum Pembeli Mobil Bekas</h3>
+<ul>
+<li>Takut dapat mobil bekas tabrakan atau banjir</li>
+<li>Harga tidak transparan, banyak biaya tersembunyi</li>
+<li>Mobil terlihat bagus, tapi banyak kerusakan setelah dibawa pulang</li>
+<li>Proses pembelian ribet dan berbelit-belit</li>
+<li>Susah cari tempat jual mokas terpercaya</li>
+</ul>
+</section>
+<section>
+<h3>🔥 HOOKI AUTO Solusinya!</h3>
+<p>Kami bantu kamu dapat mobil bekas <strong>berkualitas, bergaransi,</strong> dan bisa langsung kirim ke rumah. Proses cepat, tanpa ribet. Cek sekarang!</p>
+</section><section style="text-align: center; background: #e0f7e9; padding: 25px; border-radius: 12px; margin-bottom: 30px;">
+<h3 style="color:#2e8b57;">✅ Mobil Bersih, Bebas Tabrakan &amp; Bebas Banjir</h3>
+<p>Kami hanya menyediakan mobil-mobil dengan kualitas terbaik. Setiap unit sudah melalui proses inspeksi ketat dan bebas dari <strong>riwayat tabrakan, banjir, dan manipulasi odometer</strong>.</p>
+<p>Beli mobil di HOOKI AUTO = <strong>Aman, Nyaman, dan Terpercaya</strong>.</p>
+</section>
+<section>
+<form id="whatsappForm">
+<h3>📋 Formulir Pencarian Mobil</h3>
+<input id="nama" placeholder="Nama Anda" required="True" type="text"/><input id="asalKota" placeholder="Asal Kota Anda" required="True" type="text"/><input id="jenisMobil" placeholder="Jenis Mobil yang Dicari" required="True" type="text"/><input id="tahunMobil" placeholder="Tahun Mobil (cth: 2020)" required="True" type="text"/><select id="rencanaPembayaran" required="True"><option value="">Pilih Rencana Pembayaran</option><option value="Cash">Cash</option><option value="Kredit">Kredit</option></select><button onclick="kirimWhatsApp()" type="button">Kirim ke WhatsApp</button></form>
+</section>
+<section>
+<h3>🚗 Mobil Pilihan Kami</h3>
+<div style="display:flex;gap:15px;overflow-x:auto;padding-top:10px;">
+<img src="https://cdn.pixabay.com/photo/2015/01/19/13/51/car-604019_960_720.jpg" style="height:200px;border-radius:10px;"/>
+<img src="https://cdn.pixabay.com/photo/2017/03/27/13/52/bmw-2178443_960_720.jpg" style="height:200px;border-radius:10px;"/>
+<img src="https://cdn.pixabay.com/photo/2014/07/31/23/10/car-407165_960_720.jpg" style="height:200px;border-radius:10px;"/>
+</div>
+</section>
+<section>
+<h3>👍 Testimoni Pelanggan</h3>
+<blockquote style="font-style:italic;margin:10px 0;">
+        “Pelayanannya ramah dan cepat. Mobil bekasnya mulus seperti baru. Sangat puas beli di HOOKI AUTO!”<br/>
+<strong>- Budi, Ampana</strong>
+</blockquote>
+<blockquote style="font-style:italic;margin:10px 0;">
+        “Harga transparan dan proses kredit dibantu sampai tuntas. Recommended!”<br/>
+<strong>- Sari, Tojo Una-Una</strong>
+</blockquote>
+<div style="display:flex;flex-wrap:wrap;gap:20px;justify-content:center;margin-top:20px;"><img src="testimoni-1.jpg" style="max-width:300px;border-radius:10px;box-shadow:0 0 8px rgba(0,0,0,0.1);"/><img src="testimoni-2.jpg" style="max-width:300px;border-radius:10px;box-shadow:0 0 8px rgba(0,0,0,0.1);"/><img src="testimoni-3.jpg" style="max-width:300px;border-radius:10px;box-shadow:0 0 8px rgba(0,0,0,0.1);"/><img src="testimoni-4.jpg" style="max-width:300px;border-radius:10px;box-shadow:0 0 8px rgba(0,0,0,0.1);"/></div></section>
+<section style="text-align:center; background:#ffe600; color:#000; font-size:20px; font-weight:700; padding:30px; border-radius:12px; margin-top:30px;">
+  🚨 JANGAN SAMPAI KEHABISAN! 🚘 Stok mobil bekas berkualitas TERBATAS!
+  <br/><br/>
+  🛒 Klik tombol WhatsApp SEKARANG juga sebelum diborong orang lain!
+  <br/><br/>
+  📞 Admin kami siap bantu kamu 24 JAM nonstop!
+</section>
+</main>
+<footer>
+    © 2025 HOOKI AUTO | All rights reserved.
+  </footer>
+<script>
+function kirimWhatsApp() {
+  const nama = document.getElementById("nama").value;
+  const asalKota = document.getElementById("asalKota").value;
+  const jenisMobil = document.getElementById("jenisMobil").value;
+  const tahunMobil = document.getElementById("tahunMobil").value;
+  const rencanaPembayaran = document.getElementById("rencanaPembayaran").value;
+
+  const pesan = `Halo HOOKI AUTO! Saya ingin mencari mobil bekas:\n\nNama: ${nama}\nAsal Kota: ${asalKota}\nJenis Mobil: ${jenisMobil}\nTahun Mobil: ${tahunMobil}\nRencana Pembayaran: ${rencanaPembayaran}`;
+  const noWhatsApp = "6285277771119";
+
+  const linkWA = `https://wa.me/${noWhatsApp}?text=${encodeURIComponent(pesan)}`;
+  window.open(linkWA, "_blank");
+}
+</script>
+</body>
+</html>
